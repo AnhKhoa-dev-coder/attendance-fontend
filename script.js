@@ -46,12 +46,13 @@ function start() {
     .then((data) => {
       statusBox.innerText =
         data.status === "success"
-          ? "✅ Điểm danh thành công"
+          ? "✅ Điểm danh thành công - Cảm On Bạn Rất Nhiều"
           : "❌ " + data.message;
     })
     .catch((err) => {
       console.error(err);
-      statusBox.innerText = "❌ Không kết nối được server";
+      statusBox.innerText = "❌ Không kết nối được server - Bộ phận kĩ thuật chúng tôi hiện tại đã tắt server liên hệ kĩ thuât --> ( Anh Khoa ) để được giải quyết";
     });
 }
+
 
