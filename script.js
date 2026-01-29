@@ -87,7 +87,6 @@ function checkAttendance() {
         Ngày: ${data.date}<br>
         Giờ: ${data.time}
       `;
-
         img.src = API_BASE + data.image;
         img.style.display = "block";
       } else {
@@ -95,7 +94,8 @@ function checkAttendance() {
         img.style.display = "none";
       }
     })
-    .catch(() => {
+    .catch((err) => {
+      console.error(err);
       resultBox.innerText = "❌ Không kết nối được server";
     });
 
