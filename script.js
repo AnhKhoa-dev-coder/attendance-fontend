@@ -1,7 +1,7 @@
 const video = document.getElementById("video");
 const statusBox = document.getElementById("status");
 
-const API_BASE = " https://michal-challenging-misti.ngrok-free.dev";
+const API_BASE = "  https://michal-challenging-misti.ngrok-free.dev";
 // IP máy tính
 
 async function startCamera() {
@@ -94,8 +94,7 @@ function checkAttendance() {
         img.style.display = "none";
       }
     })
-    .catch((err) => {
-      console.error(err);
+    .catch(() => {
       resultBox.innerText = "❌ Không kết nối được server";
     });
 
