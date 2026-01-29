@@ -36,3 +36,51 @@ button {
   margin-top: 10px;
   font-weight: bold;
 }
+.anhkhoa {
+  display: block;
+  margin: 0 auto 20px 0;
+  max-width: 100px;
+  height: 60px;
+  border-radius: 50%;
+}
+#code {
+  width: 50%;
+  border-radius: 20px;
+  background-color: tomato;
+}
+button {
+  width: 30%;
+  color: black;
+  border-radius: 50px;
+  background-color: rgb(49, 142, 36);
+}
+button:hover {
+  background-color: red;
+}
+b {
+  margin-left: -35%;
+}
+body {
+  background-color: aqua;
+}
+b {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  min-height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
