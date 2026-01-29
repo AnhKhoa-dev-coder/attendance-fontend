@@ -58,7 +58,7 @@ button:hover {
   background-color: red;
 }
 b {
-  margin-left: -35%;
+  margin-left: 20%;
 }
 body {
   background-color: aqua;
@@ -84,3 +84,4 @@ body {
     background-position: 0% 50%;
   }
 }
+
