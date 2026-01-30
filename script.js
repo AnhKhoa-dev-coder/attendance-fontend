@@ -53,7 +53,7 @@ function start() {
     .catch((err) => {
       console.error(err);
       statusBox.innerText =
-        "❌ Không kết nối được server - Bộ phận kĩ thuật chúng tôi hiện tại đã tắt server liên hệ kĩ thuât --> ( Anh Khoa ) để được giải quyết";
+        "❌ Không kết nối được server - Bộ phận kĩ thuật chúng tôi hiện tại đã tắt server liên hệ kĩ thuât để được giải quyết";
     });
 }
 function checkAttendance() {
@@ -114,3 +114,4 @@ function checkAttendance() {
     return `${year}-${month}-${day}`;
   }
 }
+
