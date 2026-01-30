@@ -57,15 +57,11 @@ button {
 button:hover {
   background-color: red;
 }
-b {
-  margin-left: -90%;
-}
+
 body {
   background-color: aqua;
 }
-b {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
+
 body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
@@ -84,5 +80,9 @@ body {
     background-position: 0% 50%;
   }
 }
-
-
+#gioithieu {
+  font-size: 80%;
+  display: inline-block;
+  margin-right: 20%;
+  color: rgb(255, 255, 255);
+}
